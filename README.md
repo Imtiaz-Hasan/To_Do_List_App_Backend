@@ -23,32 +23,22 @@ This is the backend API for the To-Do List application built with Laravel. It pr
    cp .env.example .env
    ```
 
-4. Configure your database settings in `.env` file:
-   ```env
-   DB_CONNECTION=mysql
-   DB_HOST=127.0.0.1
-   DB_PORT=3306
-   DB_DATABASE=todo_list
-   DB_USERNAME=your_username
-   DB_PASSWORD=your_password
-   ```
-
-5. Generate application key:
+4. Generate application key:
    ```bash
    php artisan key:generate
    ```
 
-6. Run database migrations:
+5. Run database migrations:
    ```bash
    php artisan migrate
    ```
 
-7. Create a symbolic link for storage:
+6. Create a symbolic link for storage:
    ```bash
    php artisan storage:link
    ```
 
-8. Start the development server:
+7. Start the development server:
    ```bash
    php artisan serve
    ```
