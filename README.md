@@ -88,6 +88,3 @@ The application includes the following main tables:
 - Controllers are located in `app/Http/Controllers`
 - Models are located in `app/Models`
 
-## License
-
-This project is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
